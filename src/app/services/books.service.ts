@@ -9,6 +9,6 @@ export class BooksService {
   constructor(private http: HttpClient) { }
 
   getBooks() {
-    return this.http.get('https://data.bn.org.pl/api/bibs.json');
+    return this.http.get('https://jsonplaceholder.typicode.com/posts');
   }
 }
