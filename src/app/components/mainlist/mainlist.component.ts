@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {BooksService} from "../../services/books.service";
 
 @Component({
   selector: 'app-mainlist',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mainlist.component.css']
 })
 export class MainlistComponent implements OnInit {
+  books;
 
-  constructor() { }
+  constructor(private booksService: BooksService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.books = this.booksService.getBooks();
   }
 
 }
