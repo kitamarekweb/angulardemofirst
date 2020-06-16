@@ -13,6 +13,7 @@ export class MainlistComponent implements OnInit {
 
   ngOnInit() {
     this.books = this.booksService.getBooks();
+    console.log(this.books);
   }
 
 }
