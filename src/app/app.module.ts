@@ -1,6 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {HttpClientModule} from "@angular/common/http";
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
@@ -9,6 +8,9 @@ import {CasesDetailsComponent} from './components/cases-details/cases-details.co
 import {AddCasesComponent} from './components/add-cases/add-cases.component';
 import {EditCasesComponent} from './components/edit-cases/edit-cases.component';
 import {CasesStatComponent} from './components/cases-stat/cases-stat.component';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 //=======================================================
 //https://www.djamware.com/post/5e435e84a8d0ef4300ffc5f6/angular-9-tutorial-learn-to-build-a-crud-angular-app-quickly#new-angular-9-app
@@ -25,8 +27,10 @@ import {CasesStatComponent} from './components/cases-stat/cases-stat.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
