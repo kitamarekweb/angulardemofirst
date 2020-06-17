@@ -1,14 +1,116 @@
 # Angulardemofirst
 
-## Install data from https://github.com/didinj/coronavirus-restapi.git
+## Prepare DATA: https://github.com/didinj/coronavirus-restapi.git
 
 1) clone repository to your hard drive
 2) navigate to cloned reposiotory folder (coronavirus-restapi)
 3) run: npm install
 4) install (if missing) MongoDB Community Server from https://treehouse.github.io/installation-guides/windows/mongo-windows.html
-5) start project - go to coronavirus-restapi folder and type in cmd line: node ./bin/www
-6) create folder "C:\data\db" and go to MongoDB folder and cmd line: C:\Program Files\MongoDB\Server\4.2\bin>mongod
-7) ... but still missing data...
+5) nodemon watches your files and restarts express-server when there are changes: npm install -g nodemon
+6) start project - go to coronavirus-restapi folder and type in cmd line: nodemon ./bin/www
+7) create folder "C:\data\db" and go to MongoDB folder and cmd line: C:\Program Files\MongoDB\Server\4.2\bin>mongod
+8) Data: From Postman do a POST to http://localhost:3000/api with this JSON data in the Body:
+
+[
+
+{ "name": "An Kang",
+"gender": "Female",
+"age": 56,
+"address": "Unknown",
+"city": "Unknown",
+"country": "China",
+"status": "Dead" },
+
+{ "name": "Benjamin Zhengmain Pan",
+"gender": "Male",
+"age": 55,
+"address": "Unknown",
+"city": "Unknown",
+"country": "China",
+"status": "Dead" },
+
+{ "name": "Bill Liu",
+"gender": "Male",
+"age": 78,
+"address": "Unknown",
+"city": "Unknown",
+"country": "China",
+"status": "Recovered" },
+
+{ "name": "Cai Dongchen",
+"gender": "Female",
+"age": 43,
+"address": "Unknown",
+"city": "Unknown",
+"country": "Vietnam",
+"status": "Positive" },
+
+{ "name": "Cai Hongbin",
+"gender": "Female",
+"age": 64,
+"address": "Unknown",
+"city": "Unknown",
+"country": "Vietnam",
+"status": "Positive" },
+
+{ "name": "Cai Kui",
+"gender": "Female",
+"age": 68,
+"address": "Unknown",
+"city": "Unknown",
+"country": "Vietnam",
+"status": "Positive" },
+
+{ "name": "Cao Ji",
+"gender": "Female",
+"age": 39,
+"address": "Unknown",
+"city": "Unknown",
+"country": "Vietnam",
+"status": "Positive" },
+
+{ "name": "Cao Longxlang",
+"gender": "Male",
+"age": 35,
+"address": "Unknown",
+"city": "Unknown",
+"country": "Vietnam",
+"status": "Positive" },
+
+{ "name": "Cen Junda",
+"gender": "Male",
+"age": 34,
+"address": "Unknown",
+"city": "Unknown",
+"country": "Vietnam",
+"status": "Positive" },
+
+{ "name": "Chan Laiwa",
+"gender": "Female",
+"age": 41,
+"address": "Unknown",
+"city": "Unknown",
+"country": "Vietnam",
+"status": "Positive" },
+
+{ "name": "Chanchai Ruayrungruang",
+"gender": "Male",
+"age": 49,
+"address": "Unknown",
+"city": "Unknown",
+"country": "India",
+"status": "Positive" },
+
+{
+"name": "John Doe",
+"gender": "Male",
+"age": "39",
+"address": "1243 Main St.",
+"city": "Midland",
+"country": "USA",
+"status": "Recovered" }
+
+]
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
