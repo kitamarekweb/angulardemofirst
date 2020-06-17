@@ -29,6 +29,8 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatSelectModule} from '@angular/material/select';
 //=== Angular Material (ng add @angular/material) END ===
 
+import { ChartsModule } from 'ng2-charts';
+
 //=== PROJECT ====================================================
 //https://www.djamware.com/post/5e435e84a8d0ef4300ffc5f6/angular-9-tutorial-learn-to-build-a-crud-angular-app-quickly#new-angular-9-app
 //=== PROJECT ====================================================
@@ -62,6 +64,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatSlideToggleModule,
     MatButtonToggleModule,
     MatSelectModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
