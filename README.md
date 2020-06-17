@@ -1,6 +1,16 @@
-# Angulardemofirst
+Angulardemofirst:
 
-## Prepare DATA: https://github.com/didinj/coronavirus-restapi.git
+### Angular 9 Tutorial: Learn to Build a CRUD Angular App Quickly PROJECT 
+https://www.djamware.com/post/5e435e84a8d0ef4300ffc5f6/angular-9-tutorial-learn-to-build-a-crud-angular-app-quickly#new-angular-9-app
+
+================================================================= 
+
+### How To Build Simple RESTful API With NodeJs, ExpressJs And MongoDb PROJECT 
+https://medium.com/@dinyangetoh/how-to-build-simple-restful-api-with-nodejs-expressjs-and-mongodb-99348012925d
+
+=================================================================
+
+### Prepare DATA: https://github.com/didinj/coronavirus-restapi.git
 
 1) clone repository to your hard drive
 2) navigate to cloned reposiotory folder (coronavirus-restapi)
@@ -111,6 +121,8 @@
 "status": "Recovered" }
 
 ]
+
+=================================================================
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
