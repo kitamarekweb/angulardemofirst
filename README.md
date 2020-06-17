@@ -1,5 +1,15 @@
 # Angulardemofirst
 
+## Install data from https://github.com/didinj/coronavirus-restapi.git
+
+1) clone repository to your hard drive
+2) navigate to cloned reposiotory folder (coronavirus-restapi)
+3) run: npm install
+4) install (if missing) MongoDB Community Server from https://treehouse.github.io/installation-guides/windows/mongo-windows.html
+5) start project - go to coronavirus-restapi folder and type in cmd line: node ./bin/www
+6) create folder "C:\data\db" and go to MongoDB folder and cmd line: C:\Program Files\MongoDB\Server\4.2\bin>mongod
+7) ... but still missing data...
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
